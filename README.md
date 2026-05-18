@@ -1,98 +1,81 @@
 <div align="center">
-  <br />
 
-  <div>
-    <img alt="Static Badge" src="https://img.shields.io/badge/React-4c84f3?style=for-the-badge&logo=react&logoColor=white">
-        <img src="https://img.shields.io/badge/-Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-        <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
-    <img alt="Static Badge" src="https://img.shields.io/badge/Puter.js-181758?style=for-the-badge&logoColor=white">
-  </div>
+# CVisionAI — AI Resume Analyzer
 
-  <h3 align="center">AI Resume Analyzer</h3>
+**An AI-powered Resume Analyzer built with React, React Router, and Puter.js.**
+Upload resumes, match candidates to job listings, and get ATS scores with custom feedback — all in the browser, no backend required.
+
+[![Live Preview](https://img.shields.io/badge/Live%20Preview-Visit-blue?style=flat-square)](https://6a0b4d630a89c9acf32fb4cf--kaleidoscopic-gecko-a39bfa.netlify.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-CVisionAI-black?style=flat-square&logo=github)](https://github.com/AbhishekTyagiMahadev/CVisionAI)
+
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+---
 
-1. ✨ [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+## 📋 Table of Contents
 
-## 🚨 Tutorial
+- [Introduction](#-introduction)
+- [Tech Stack](#️-tech-stack)
+- [Features](#-features)
+- [Quick Start](#-quick-start)
 
-This repository contains the code corresponding to the Major part of the Project.
+---
 
-## <a name="introduction">✨ Introduction</a>
+## ✨ Introduction
 
-Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing—all wrapped in a clean, reusable UI.
+Build an AI-powered Resume Analyzer with **React**, **React Router**, and **Puter.js**. Implement seamless browser-based auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing — all wrapped in a clean, reusable UI.
 
+---
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## ⚙️ Tech Stack
 
-- **[React](https://react.dev/)** is a popular open‑source JavaScript library for building user interfaces using reusable components and a virtual DOM, enabling efficient, dynamic single-page and native apps.
+| Technology | Purpose |
+|---|---|
+| [React](https://react.dev/) | Component-based UI library with virtual DOM for fast, dynamic interfaces |
+| [React Router v7](https://reactrouter.com/) | Nested routes, data loaders, code splitting, and SSR for React apps |
+| [Puter.js](https://jsm.dev/resumind-puterjs) | Client-side SDK for serverless auth, storage, database, and AI — no backend needed |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework for rapid, custom UI design |
+| [TypeScript](https://www.typescriptlang.org/) | Typed superset of JavaScript for safer, more maintainable code |
+| [Vite](https://vite.dev/) | Fast dev server and build tool using native ES modules |
+| [Zustand](https://github.com/pmndrs/zustand) | Minimal hook-based global state management with zero boilerplate |
 
-- **[React Router v7](https://reactrouter.com/)** is the go‑to routing library for React apps, offering nested routes, data loaders/actions, error boundaries, code splitting, and SSR support—all with a smooth upgrade path from v6.
+---
 
-- **[Puter.com](https://jsm.dev/resumind-puter)** is an advanced, open-source internet operating system designed to be feature-rich, exceptionally fast, and highly extensible. Puter can be used as: A privacy-first personal cloud to keep all your files, apps, and games in one secure place, accessible from anywhere at any time.
+## 🔋 Features
 
-- **[Puter.js](https://jsm.dev/resumind-puterjs)** is a tiny client‑side SDK that adds serverless auth, storage, database, and AI (GPT, Claude, DALL·E, OCR…) straight into your browser app—no backend needed and costs borne by users.
+- ✅ **Browser-based auth** — handle authentication entirely in the browser via Puter.js, no backend or setup required
+- ✅ **Resume upload & storage** — users can upload and safely store all their resumes in one place
+- ✅ **AI resume matching** — provide a job listing and receive an ATS score with custom feedback tailored to each resume
+- ✅ **Reusable, modern UI** — clean, consistent components built with Tailwind CSS and shadcn/ui
+- ✅ **Responsive design** — fully cross-device compatible layout that works on all screen sizes
+- ✅ **Modular codebase** — reusable components and clean architecture for efficient development
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
+---
 
-- **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers, making it ideal for building large-scale applications.
+## 🤸 Quick Start
 
-- **[Vite](https://vite.dev/)** is a fast build tool and dev server using native ES modules for instant startup, hot‑module replacement, and Rollup‑powered production builds—perfect for modern web development.
+### Prerequisites
 
-- **[Zustand](https://github.com/pmndrs/zustand)** is a minimal, hook-based state management library for React. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
-
-## <a name="features">🔋 Features</a>
-
-👉 **Easy & convenient auth**: Handle authentication entirely in the browser using Puter.js—no backend or setup required.
-
-👉 **Resume upload & storage**: Let users upload and store all their resumes in one place, safely and reliably.
-
-👉 **AI resume matching**: Provide a job listing and get an ATS score with custom feedback tailored to each resume.
-
-👉 **Reusable, modern UI**: Built with clean, consistent components for a great-looking and maintainable interface.
-
-👉 **Code Reusability**: Leverage reusable components and a modular codebase for efficient development.
-
-👉 **Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.
-
-👉 **Modern UI/UX**: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
-
-And many more, including code architecture and reusability.
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
+Make sure you have the following installed:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [npm](https://www.npmjs.com/)
 
-**Cloning the Repository**
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/KunalxKushwaha/Resumind.git
-cd Resumind
+git clone https://github.com/AbhishekTyagiMahadev/CVisionAI.git
+cd CVisionAI
 ```
 
-**Installation**
-
-Install the project dependencies using npm:
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-**Running the Project**
+### 3. Start the dev server
 
 ```bash
 npm run dev
@@ -100,4 +83,8 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
-## Made with 💖 by Kunal Kushwaha.
+---
+
+<div align="center">
+Made with ❤️ by <strong>Abhishek Tyagi</strong>
+</div>
