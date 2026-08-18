@@ -4,16 +4,13 @@
  * @returns A string representing the size in B, KB, MB, or GB.
  */
 
-import {type ClassValue, clsx} from "clsx";
-import {twMerge} from "tailwind-merge";
-
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+import { clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
+export function cn(...inputs) {
+  return twMerge(clsx(inputs));
 }
-
-export function formatSize(bytes: number): string {
+export function formatSize(bytes) {
   if (bytes === 0) return '0 Bytes';
-
   const k = 1024;
   const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
 
@@ -23,5 +20,4 @@ export function formatSize(bytes: number): string {
   // Format with 2 decimal places and round
   return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
 }
-
 export const generateUUID = () => crypto.randomUUID();
